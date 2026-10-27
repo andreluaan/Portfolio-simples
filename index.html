@@ -215,11 +215,24 @@
     .project, .about { grid-template-columns: 1fr; gap: 22px; }
     .project:nth-child(even) .project-media { order: 0; }
     .topbar nav { gap: 14px; }
+    section.block > .wrap { padding-block: 48px; gap: 28px; }
+    .projects { gap: 48px; }
+    .project-media { padding: 6px; }
+    .project-media img, .about img { height: auto; }
+    .about img { max-width: 240px; }
+    .reader-bar { padding-block: calc(10px + env(safe-area-inset-top, 0px)) 10px; }
+    .reader-pages { padding-top: 16px; gap: 14px; }
   }
   @media (max-width: 480px) {
     .steps { grid-template-columns: 1fr; }
     .step + .step { padding-left: 0; border-left: 0; border-top: 1px solid var(--rule); }
     .topbar nav a:nth-child(3) { display: none; }
+    .hero .wrap { padding-block: 32px 0; }
+    .hero h1 { font-size: 3rem; }
+    .links .btn { flex: 1 1 auto; justify-content: center; }
+    .reader-title strong { font-size: 1rem; }
+    .reader-actions { width: 100%; }
+    .reader-actions .btn { flex: 1; justify-content: center; }
   }
 </style>
 </head>
