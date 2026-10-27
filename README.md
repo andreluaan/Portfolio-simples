@@ -2,7 +2,7 @@
 
 Prévia do meu portfólio: sites publicados e identidades visuais, com os PDFs das marcas abrindo na própria página.
 
-**Ver online:** https://andreluaan.github.io/portfolio-previa/
+**Ver online:** https://andreluaan.github.io/Portfolio-simples/
 
 ## Projetos
 
